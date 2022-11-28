@@ -1,4 +1,4 @@
-const ITEM_LENGTH = 11;
+const ITEM_LENGTH = 19;
 
 const fetchNextDodo = async () => {
     const response = await fetch("https://faas-lon1-917a94a7.doserverless.co/api/v1/web/fn-e61fc1e4-1801-4bd5-8c0c-92857d566040/notion/fetch");
