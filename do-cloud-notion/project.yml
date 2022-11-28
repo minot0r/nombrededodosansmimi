@@ -1,0 +1,12 @@
+environment: {}
+parameters: {}
+packages:
+  - name: notion
+    environment: {}
+    parameters: {}
+    annotations: {}
+    functions:
+      - name: fetch
+        runtime: 'nodejs:default'
+        main: 'main'
+        web: false
